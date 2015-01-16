@@ -1,0 +1,18 @@
+{
+  "name": "voxel-testbed",
+  "version": "0.0.1",
+  "repository": "https://github.com/andyhall/voxel-testbed.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy index.js:bundle.js 8080 --live --open"
+  },
+  "dependencies": {
+    "voxel-engine": "git://github.com/andyhall/voxel-engine.git#110c0a2665708931aee974851ccfc85cfc85566a",
+    "voxel-land": "^0.2.1",
+    "voxel-plugins-ui": "^0.2.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^8.0.3"
+  }
+}
