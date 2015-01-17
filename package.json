@@ -7,7 +7,7 @@
     "start": "beefy index.js:bundle.js 8080 --live --open"
   },
   "dependencies": {
-    "voxel-engine": "git://github.com/andyhall/voxel-engine.git#110c0a2665708931aee974851ccfc85cfc85566a",
+    "voxel-engine": "git://github.com/andyhall/voxel-engine.git#e5678b90b8143226b359c798897d3564a56ef1d6",
     "voxel-land": "^0.2.1",
     "voxel-plugins-ui": "^0.2.1"
   },
