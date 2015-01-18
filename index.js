@@ -37,7 +37,7 @@ var game = engine({
 		'voxel-shader': { cameraFOV: 90 },
 		'voxel-mesher': {},
 		'voxel-land': {populateTrees: true},
-		'voxel-plugins-ui': { autoBlur: true, guiWidth:500 },
+		'voxel-plugins-ui': { autoBlur: true, guiOpts: {width:400} },
 //    'voxel-keys': {},
 //    'voxel-airjump': { allowedJumps: 3 },
 
