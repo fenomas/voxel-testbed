@@ -21,7 +21,7 @@ var engineOpts = {
 	controls: {
 		discreteFire: false,
 		fireRate: 100,
-		jumpTimer: 25
+		jumpTimer: 200
 	}
 	
 }
@@ -33,7 +33,7 @@ var game = engine({
 		'voxel-engine': engineOpts,
 		'voxel-registry': {},
 		'voxel-stitch': { artpacks: ['ProgrammerArt-ResourcePack.zip'] },
-		'game-shell-fps-camera': {},
+//		'game-shell-fps-camera': {},
 		'voxel-shader': { cameraFOV: 90 },
 		'voxel-mesher': {},
 		'voxel-land': {populateTrees: true},
