@@ -6,6 +6,8 @@ of 'voxel-engine#ndarray' that I'm working on.
 
 Very early stages for the moment.
 
+Build: http://andyhall.github.io/voxel-testbed/
+
 Details on voxel-engine at the original repo:
 https://github.com/maxogden/voxel-engine/tree/ndarray
 
