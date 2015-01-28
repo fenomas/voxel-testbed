@@ -7,7 +7,7 @@
     "start": "beefy index.js:bundle.js 8080 --live --open"
   },
   "dependencies": {
-    "voxel-engine": "andyhall/voxel-engine#d01287dfa42930565103e76603f615123e5e6099",
+    "voxel-engine": "andyhall/voxel-engine#15b9fa3cdc2bfc116704476f572e2b99f498c0e4",
     "voxel-land": "^0.2.1",
     "voxel-plugins-ui": "^0.2.1"
   },
