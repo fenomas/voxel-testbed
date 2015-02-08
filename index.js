@@ -2,8 +2,9 @@
 var engine = require('voxel-engine')
 require('voxel-land')
 require('voxel-plugins-ui')
-//require('voxel-airjump')
-//require('voxel-keys')
+require('voxel-keys')
+//require('voxel-chunkborder')
+//require('voxel-draw-box')
 
 window.util = require('util')
 
@@ -38,8 +39,9 @@ var game = engine({
 		'voxel-mesher': {},
 		'voxel-land': {populateTrees: true},
 		'voxel-plugins-ui': { autoBlur: true, guiOpts: {width:400} },
-//    'voxel-keys': {},
-//    'voxel-airjump': { allowedJumps: 3 },
+		'voxel-keys': {},
+//		'voxel-chunkborder': {},
+//		'voxel-draw-box': {},
 
 	}
 })
