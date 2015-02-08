@@ -4,15 +4,19 @@
   "repository": "https://github.com/andyhall/voxel-testbed.git",
   "main": "index.js",
   "scripts": {
-    "start": "beefy index.js:bundle.js 8080 --live --open"
+    "start": "beefy index.js:bundle.js 8080 --live --open -- -t glslify"
   },
   "dependencies": {
-    "voxel-engine": "andyhall/voxel-engine#15b9fa3cdc2bfc116704476f572e2b99f498c0e4",
+    "avatar": "^0.1.0",
+    "voxel-chunkborder": "^0.4.2",
+    "voxel-engine": "andyhall/voxel-engine#fd64e019bf1b1a04fe24e7ec6cf39ef93441e43e",
+    "voxel-keys": "^0.5.0",
     "voxel-land": "^0.2.1",
     "voxel-plugins-ui": "^0.2.1"
   },
   "devDependencies": {
     "beefy": "^2.1.1",
-    "browserify": "^8.0.3"
+    "browserify": "^8.0.3",
+    "glslify": "^1.6.0"
   }
 }
