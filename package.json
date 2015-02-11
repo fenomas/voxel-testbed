@@ -9,7 +9,7 @@
   "dependencies": {
     "avatar": "^0.1.0",
     "voxel-chunkborder": "^0.4.2",
-    "voxel-engine": "andyhall/voxel-engine#fd64e019bf1b1a04fe24e7ec6cf39ef93441e43e",
+    "voxel-engine": "andyhall/voxel-engine#79813410f7307195ed78acf9df24e8f7e5a04099",
     "voxel-keys": "^0.5.0",
     "voxel-land": "^0.2.1",
     "voxel-plugins-ui": "^0.2.1"
